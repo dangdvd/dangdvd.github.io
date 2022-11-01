@@ -1,0 +1,36 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [1.1.1.1, 8.8.8.8, 9.9.9.9, 45.90.28.0, 45.90.30.0]
+    enhanced-mode: redir-host
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://dns.nextdns.io/659b1f', 'https://cloudflare-dns.com/dns-query']
+    fallback: ['tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+
+    - { name: '🇸🇬 SG1 dvd1', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 567314c0-554a-11ed-96f4-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd2', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 5c62af60-554a-11ed-9d20-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd3', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 620decf0-554a-11ed-8835-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd4', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 6c135020-554a-11ed-bc61-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd5', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 772eb940-554a-11ed-86a2-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+
+    - { name: '🇸🇬 SG1 dvd6', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 7ee4c370-554a-11ed-9e94-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd7', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 872fe210-554a-11ed-9c98-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd8', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 8d296880-554a-11ed-bff4-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd9', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 92048c70-554a-11ed-8aa3-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd10', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: 9a26c5b0-554a-11ed-90d0-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+
+proxy-groups:
+    - { name: DVD-VPN, type: select, proxies: ['Auto chọn máy chủ (Ping ổn định)', 'Auto đổi máy chủ (Dự phòng lỗi)',  '🇸🇬 SG1 dvd1', '🇸🇬 SG1 dvd2', '🇸🇬 SG1 dvd3', '🇸🇬 SG1 dvd4', '🇸🇬 SG1 dvd5', '🇸🇬 SG1 dvd6', '🇸🇬 SG1 dvd7', '🇸🇬 SG1 dvd8', '🇸🇬 SG1 dvd9', '🇸🇬 SG1 dvd10']}
+    - { name: 'Auto chọn máy chủ (Ping ổn định)', type: url-test, proxies: [ '🇸🇬 SG1 dvd1', '🇸🇬 SG1 dvd2', '🇸🇬 SG1 dvd3', '🇸🇬 SG1 dvd4', '🇸🇬 SG1 dvd5', '🇸🇬 SG1 dvd6', '🇸🇬 SG1 dvd7', '🇸🇬 SG1 dvd8', '🇸🇬 SG1 dvd9', '🇸🇬 SG1 dvd10'], url: 'http://dns.google/dns-query', interval: 450 }
+    - { name: 'Auto đổi máy chủ (Dự phòng lỗi)', type: fallback, proxies: [ '🇸🇬 SG1 dvd1', '🇸🇬 SG1 dvd2', '🇸🇬 SG1 dvd3', '🇸🇬 SG1 dvd4', '🇸🇬 SG1 dvd5', '🇸🇬 SG1 dvd6', '🇸🇬 SG1 dvd7', '🇸🇬 SG1 dvd8', '🇸🇬 SG1 dvd9', '🇸🇬 SG1 dvd10'], url: 'http://www.gstatic.com/generate_204', interval: 300 }
+    - { name: SG, type: select, proxies: ['🇸🇬 SG1 dvd1', '🇸🇬 SG1 dvd2', '🇸🇬 SG1 dvd3', '🇸🇬 SG1 dvd4', '🇸🇬 SG1 dvd5', '🇸🇬 SG1 dvd6', '🇸🇬 SG1 dvd7', '🇸🇬 SG1 dvd8', '🇸🇬 SG1 dvd9', '🇸🇬 SG1 dvd10'] }
+rules:
