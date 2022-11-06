@@ -165,10 +165,78 @@ https://vips-livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.
 http://vips-livecdn.fptplay.net/hda2/fashiontvhd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="bbclifestyle" group-title="KÊNH THỜI TRANG - PHONG CÁCH SỐNG" tvg-logo="https://i.ibb.co/phJX54L/BBC-Lifestyle.png", 81. BBC Life Style [1080P]
 https://vips-livecdn.fptplay.net/sdb/bbclifestyle_2000.stream/chunklist_b500000.m3u8
-#EXTINF:-1 tvg-id="cctv5" group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/BrM5gqC/CCTV5.png", 82. CCTV5 [720P]
-http://39.135.138.60:18890/PLTV/88888910/224/3221225633/index.m3u8
-#EXTINF:-1 tvg-id="cctv5+" group-title="KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/B4M04rX/CCTV5.png", 83. CCTV5+ [720P]
-http://39.135.138.60:18890/PLTV/88888910/224/3221225649/index.m3u8
+
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/UKDBOaR.png",VTVCab3 - ON Sports ENG
+https://livevlive.vtvcab.vn/hls/OS_ONSPORTTA/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 tvg-id="vtvcab6hd" group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/0WG6aCs.png",ON Sports+ HD
+https://nvzoftzsvflivcf.vcdn.com.vn/vtvcab6/vtvcab6@high.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/yVrY9R0.png",VTVCab16 - ON Football ENG
+https://livevlive.vtvcab.vn/hls/OS_ONFOOTBALLTA/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/DRaBQah.png",VTVCab18 - ON Sports News ENG
+https://livevlive.vtvcab.vn/hls/OS_ONSPORTNEWSTA/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/TOftsxb.png",VTVCab23 - ON Golf ENG
+https://livevlive.vtvcab.vn/hls/OS_ONGOLFTA/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/wPdMkZ4.png",ON VFF - BÓNG ĐÁ VIỆT
+https://livevlive.vtvcab.vn/hls/OS_ONVFFTV/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.imgur.com/U13G0xN.png",ON Volleyball - Thể Thao VIỆT
+https://livevlive.vtvcab.vn/hls/OS_ONVOLLEYBALL/sc-gaFEAA/m30_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 1
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 2
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport02_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 3
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport03_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 4
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport04_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 5
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport05_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 6
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport06_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 7
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport07_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 8
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport08_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 9
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/4NY75KS/fpt-sport.jpg", FSPORT 10
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 1
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT1/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 2
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT2/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 3
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT3/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 4
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT4/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 5
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT5/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 6
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT6/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 7
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT7/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 8
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT8/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 9
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT9/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/68nbNYt/ON-SPORT.jpg", ON SPORT 10
+https://livevlive.vtvcab.vn/hls/OS_ONSPORT10/sc-gaFEAA/m40_index.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-BEARTV.png",WBC 01
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/schedule/wbc01_vhls.smil/chunklist_b5000000.m3u8
+#EXTINF:-1 group-title="🇻🇳-🇷🇺| Thể Thao" tvg-logo="https://i.ibb.co/DRc2SNG/fpt-play-sport-BEARTV.png",WBC 02
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+https://vips-livecdn.fptplay.net/schedule/wbc02_vhls.smil/chunklist_b5000000.m3u8
+
 #EXTINF:-1 tvg-id="mtvhd" group-title="KÊNH ÂM NHẠC" tvg-logo="", 84. MTV HD [720P]
 https://livecdn.fptplay.net/sdb/mtv_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="vovtvhd" group-title="KÊNH THIẾT YẾU" tvg-logo="", 85. VOVTV HD [720P]
