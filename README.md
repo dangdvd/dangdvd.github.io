@@ -1,4 +1,4 @@
-# dangdvd.github.io/IPTV.m3u
-# dangdvd.github.io/VietNgaTV.m3u
-# dangdvd.github.io/VPN-VN.txt
-# dangdvd.github.io/VPN-SG.txt
+# https://dangdvd.github.io/IPTV.m3u
+# https://dangdvd.github.io/VietNgaTV.m3u
+# https://dangdvd.github.io/VPN-VN.txt
+# https://dangdvd.github.io/VPN-SG.txt
