@@ -15,22 +15,23 @@ dns:
     fallback: ['tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
+    - { name: '🇻🇳 VN2 dvd', type: vmess, server: vn2.vpnjantit.com, port: 443, uuid: 085ca7f4-5d8a-11ed-b491-4241c7709426, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, sni: viettel.akamai.net, network: ws, ws-opts: { path: /vpnjantit } }
 
-    - { name: '🇻🇳 VN1 dvd1', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 68c9a890-5549-11ed-8058-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd2', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 6bf5afa0-5549-11ed-8da5-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd3', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 6f2e5c60-5549-11ed-8608-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd4', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 71d4e3e0-5549-11ed-9c32-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd5', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 74492660-5549-11ed-bcf1-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd1', type: trojan, server: vn-trojan.bonds.id, port: 443, password: c2e9a200-5db3-11ed-b46f-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd2', type: trojan, server: vn-trojan.bonds.id, port: 443, password: dcd936f0-5db3-11ed-b193-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd3', type: trojan, server: vn-trojan.bonds.id, port: 443, password: e7d6eff0-5db3-11ed-9dbf-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd4', type: trojan, server: vn-trojan.bonds.id, port: 443, password: f218d880-5db3-11ed-88fc-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd5', type: trojan, server: vn-trojan.bonds.id, port: 443, password: fa59b870-5db3-11ed-9d7b-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
 
-    - { name: '🇻🇳 VN1 dvd6', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 76db5fa0-5549-11ed-98e9-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd7', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 79abd190-5549-11ed-a9e6-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd8', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 7b8cf970-5549-11ed-b5fc-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd9', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 7e0f3060-5549-11ed-8378-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇻🇳 VN1 dvd10', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 7feeda50-5549-11ed-a6e4-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd6', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 03ee2330-5db4-11ed-85c7-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd7', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 0da385d0-5db4-11ed-a28f-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd8', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 16e16640-5db4-11ed-8ec9-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd9', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 1fd7c8a0-5db4-11ed-9017-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇻🇳 VN1 dvd10', type: trojan, server: vn-trojan.bonds.id, port: 443, password: 2b4ceeb0-5db4-11ed-b2f1-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
 
 proxy-groups:
-    - { name: DVD-VPN, type: select, proxies: ['Auto chọn máy chủ (Ping ổn định)', 'Auto đổi máy chủ (Dự phòng lỗi)',  '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10']}
-    - { name: 'Auto chọn máy chủ (Ping ổn định)', type: url-test, proxies: [ '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'], url: 'http://dns.google/dns-query', interval: 450 }
-    - { name: 'Auto đổi máy chủ (Dự phòng lỗi)', type: fallback, proxies: [ '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'], url: 'http://www.gstatic.com/generate_204', interval: 300 }
-    - { name: VN, type: select, proxies: ['🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'] }
+    - { name: DVD-VPN, type: select, proxies: ['Auto chọn máy chủ (Ping ổn định)', 'Auto đổi máy chủ (Dự phòng lỗi)',  '🇻🇳 VN2 dvd', '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10']}
+    - { name: 'Auto chọn máy chủ (Ping ổn định)', type: url-test, proxies: ['🇻🇳 VN2 dvd', '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'], url: 'http://dns.google/dns-query', interval: 450 }
+    - { name: 'Auto đổi máy chủ (Dự phòng lỗi)', type: fallback, proxies: ['🇻🇳 VN2 dvd', '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'], url: 'http://www.gstatic.com/generate_204', interval: 300 }
+    - { name: VN, type: select, proxies: ['🇻🇳 VN2 dvd', '🇻🇳 VN1 dvd1', '🇻🇳 VN1 dvd2', '🇻🇳 VN1 dvd3', '🇻🇳 VN1 dvd4', '🇻🇳 VN1 dvd5', '🇻🇳 VN1 dvd6', '🇻🇳 VN1 dvd7', '🇻🇳 VN1 dvd8', '🇻🇳 VN1 dvd9', '🇻🇳 VN1 dvd10'] }
 rules:
