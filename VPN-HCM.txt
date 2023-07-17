@@ -1,0 +1,25 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [1.1.1.1, 8.8.8.8, 9.9.9.9, 45.90.28.0, 45.90.30.0]
+    enhanced-mode: redir-host
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://dns.nextdns.io/659b1f', 'https://cloudflare-dns.com/dns-query']
+    fallback: ['tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+    - { name: '🇻🇳 VN2 dvd', type: vmess, server: vn2.vpnjantit.com, port: 443, uuid: 085ca7f4-5d8a-11ed-b491-4241c7709426, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, sni: viettel.akamai.net, network: ws, ws-opts: { path: /vpnjantit } }
+
+proxy-groups:
+    - { name: DVD-VPN, type: select, proxies: ['Auto chọn máy chủ (Ping ổn định)', 'Auto đổi máy chủ (Dự phòng lỗi)',  '🇻🇳 VN2 dvd']}
+    - { name: 'Auto chọn máy chủ (Ping ổn định)', type: url-test, proxies: ['🇻🇳 VN2 dvd'], url: 'http://dns.google/dns-query', interval: 450 }
+    - { name: 'Auto đổi máy chủ (Dự phòng lỗi)', type: fallback, proxies: ['🇻🇳 VN2 dvd'], url: 'http://www.gstatic.com/generate_204', interval: 300 }
+    - { name: VN, type: select, proxies: ['🇻🇳 VN2 dvd'] }
+rules:
