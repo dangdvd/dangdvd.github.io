@@ -16,7 +16,7 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
 
-    - { name: '🇸🇬 SG1 dvd1', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: ac9b8ea0-5db5-11ed-a069-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd1', type: trojan, server: sg-4.test3.net, port: 443, password: f7f22600-ad3d-11ef-a624-1239d0255272, udp: true, sni: M.tiktok.com, skip-cert-verify: true }
     - { name: '🇸🇬 SG1 dvd2', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: b6a7bd40-5db5-11ed-84d9-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
     - { name: '🇸🇬 SG1 dvd3', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: c09131f0-5db5-11ed-a56e-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
     - { name: '🇸🇬 SG1 dvd4', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: c8cdbf60-5db5-11ed-b7b6-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
