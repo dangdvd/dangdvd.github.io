@@ -16,10 +16,10 @@ dns:
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
 
-    - { name: '🇸🇬 SG2 dvd1', type: trojan, server: sg2.6n6.net, port: 443, password: a86ed830-caa5-11ef-a5fb-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇸🇬 SG2 dvd2', type: trojan, server: sg2.6n6.net, port: 443, password: 73816e10-caa5-11ef-8457-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇸🇬 SG3 dvd3', type: trojan, server: sg3.socifiles.com, port: 443, password: d979a3e0-caa7-11ef-819e-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
-    - { name: '🇸🇬 SG4 dvd4', type: trojan, server: sg4.6n6.net, port: 443, password: efc02f80-caa4-11ef-af65-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd1', type: trojan, server: sg2.6n6.net, port: 443, password: a86ed830-caa5-11ef-a5fb-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd2', type: trojan, server: sg2.6n6.net, port: 443, password: 73816e10-caa5-11ef-8457-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd3', type: trojan, server: sg3.socifiles.com, port: 443, password: d979a3e0-caa7-11ef-819e-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
+    - { name: '🇸🇬 SG1 dvd4', type: trojan, server: sg4.6n6.net, port: 443, password: efc02f80-caa4-11ef-af65-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
     - { name: '🇸🇬 SG1 dvd5', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: d1614010-5db5-11ed-b4d0-1239d0255272, udp: true, sni: M.tiktok.com, skip-cert-verify: true }
 
     - { name: '🇸🇬 SG1 dvd6', type: trojan, server: sgovh-trojan.bonds.id, port: 443, password: da08a730-5db5-11ed-93b2-1239d0255272, udp: true, sni: viettel.akamai.net, skip-cert-verify: true }
